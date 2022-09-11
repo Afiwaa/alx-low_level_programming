@@ -2,7 +2,7 @@
 #include <ctype.h>
 
 /**
- * main - Print all possible combination of single digit numbers separated by comma and whitespace
+ * main - Print single digit numbers separated by comma and whitespace
  * Return: returns 0
  */
 
