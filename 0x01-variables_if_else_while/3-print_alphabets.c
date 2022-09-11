@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <unistd.h>
+#include <ctype.h>
 
 /**
  * main - Printing both uppercases and lowercases
@@ -9,6 +9,7 @@ int main(void)
 {
 	char m;
 	char p;
+
 	for (m = 'a'; m <= 'z'; m++)
 	{
 		putchar(m);
@@ -20,4 +21,5 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
+
 
