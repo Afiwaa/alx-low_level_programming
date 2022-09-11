@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <ctype.h>
+#include <unistd.h>
 
 /**
  * main - Printing both uppercases and lowercases
@@ -19,5 +19,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
-}
 
