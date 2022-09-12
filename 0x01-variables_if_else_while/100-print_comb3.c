@@ -21,6 +21,8 @@ int main(void)
 				putchar(n);
 				if (m == '8' && n == '9')
 					continue;
+				putchar(',');
+				putchar(' ');
 			}
 		}
 	}
