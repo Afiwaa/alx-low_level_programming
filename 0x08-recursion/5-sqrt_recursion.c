@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * find_sqrt - find square root 
+ * find_sqrt - find square root
  * @n: number
- * @m: probable square root
+ * @g: probable square root
  * Return: squareroot
  */
 
@@ -36,4 +36,3 @@ int _sqrt_recursion(int n)
 	else
 		return (find_sqrt(n, 0));
 }
-
